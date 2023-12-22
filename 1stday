@@ -22,4 +22,9 @@ where replicaset has "selector" which will check the matchlabels if it has any l
 
 6) HORIZONTAL POD AUTOSCALING: adjust the pods (increasing and decreasing) depends up the "workloads"
 
-
+7) STATELESSSET: who dont worry about the maintainice of consistancy of data. 
+8) STATEFULSET: maintainong cnsistancy of data. 
+ here dockerswarm and kubernetes both has features of statefull and stateless applications. 
+where dockerswarm will not maintaing same data of newgenerated volume. but kubernetes maintaing same data of newly generated volumes.
+9) PV: persistant volume: maintaing PA
+10) PVA: persistant volume cliam  
