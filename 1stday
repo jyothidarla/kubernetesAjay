@@ -1,0 +1,25 @@
+Kubernetes: 
+Kubernetes is a Opensouce Container Orchestration Tool. its a generic container orchestration tool. 
+>where as Dockerswarm is a docker orchestration tool it can work only restricted on docker platform.
+>k8s will work on any platform irrespective of any containers. because it has pod which converts all kubctl coomands translates into container understanding commands.
+
+kubernetes objects:
+1) POD: pod is a overlay layer of container. which has container, accepts the kubctl commands and translates into container. 
+here we have pod irrespective of any container it works thats the why its a generic container orchestration tool.
+
+2) SERVICE OBJECTS: Service object is also known as service port.
+here service port, hostport and container ports are inter-linked with each other.
+so service port maintaining all the pods of information. here any case the pod is crashing or creating 
+it will regenerate and comeup with the same ip of pod. because of it maintaining pods info.
+
+3) DEPLOYMENT: it maintaining all the pods. it support the features of loadbalencing scaling and rolling updates.
+
+4) REPLICATION CONTROLLER: its a old methodology to create replicas and maintaining replicas of pod. 
+
+5) REPLICASET: replicaset and replication controller are same, it has supporting loadbalencing and scaling, 
+where replicaset has "selector" which will check the matchlabels if it has any label maches or exist , it will resuable them, if its not recreate them.
+> where in replication controller doestnot have that feature, whether its exist or not it will newgenerate the replicas.
+
+6) HORIZONTAL POD AUTOSCALING: adjust the pods (increasing and decreasing) depends up the "workloads"
+
+
