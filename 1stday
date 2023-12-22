@@ -26,5 +26,5 @@ where replicaset has "selector" which will check the matchlabels if it has any l
 8) STATEFULSET: maintainong cnsistancy of data. 
  here dockerswarm and kubernetes both has features of statefull and stateless applications. 
 where dockerswarm will not maintaing same data of newgenerated volume. but kubernetes maintaing same data of newly generated volumes.
-9) PV: persistant volume: maintaing PA
-10) PVA: persistant volume cliam  
+9) PV: persistant volume: maintaing volume for production
+10) PVA: persistant volume cliam is accessing someamount of datavolume from PA for pod creation 
