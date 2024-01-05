@@ -1,3 +1,4 @@
+Container: is a application, which runs on the docker engine, with process isolation. 
 Kubernetes: 
 Kubernetes is a Opensouce Container Orchestration Tool. its a generic container orchestration tool. 
 >where as Dockerswarm is a docker orchestration tool it can work only restricted on docker platform.
